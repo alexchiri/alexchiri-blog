@@ -14,7 +14,9 @@ categories:
 tags:
 - journalling
 - meditation
+layout: layouts/post.njk
 ---
+![](/img/meditation.jpg)
 
 ## Meditation
 
@@ -43,7 +45,7 @@ A complementary practice to meditation is journaling. I found it very hard to sp
 ### Morning
 
 
-![](/img/2018/12/Screenshot-2018-11-04-at-19.16.03.png)
+![](/img/Screenshot-2018-11-04-at-19.16.03.png)
 
 
 Soon after my meditation, I fill-in the sections above.
@@ -68,7 +70,7 @@ Finally, before starting my actual day, I end the morning journaling with a few 
 ### Evening
 
 
-![](/img/2018/12/Screenshot-2018-11-04-at-19.17.30.png)
+![](/img/Screenshot-2018-11-04-at-19.17.30.png)
 
 
 At the end of the day, I wrap it up with putting down some thoughts about how did the day go, with more focus on what went well, rather than on didn’t go so well. Finally, I write a few lines about what I could’ve done better through the day.

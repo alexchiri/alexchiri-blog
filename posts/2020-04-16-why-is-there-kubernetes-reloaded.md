@@ -11,13 +11,10 @@ categories:
 - Code & Tech
 tags:
 - kubernetes
+layout: layouts/post.njk
 ---
-# What and Why is (there) Kubernetes?
 
-*Written on April 16th, 2020.*
-tags: #kubernetes 
-
-![[what-why-kubernetes.png]]
+![](/img/what-why-kubernetes.png)
 
 Not long ago, I posted a small article called "Why is (there) Kubernetes?". Its content inspired me to create a short presentation trying to answer the questions "What and Why is there Kubernetes?". See below the recording and its summary after.
 

@@ -5,6 +5,7 @@ description: Are we behaving like a professional, an amateur or a hack in our wo
 tags:
   - software-development
   - work
+layout: layouts/post.njk
 ---
 ![](/img/Depositphotos_10732016_S.jpg)
 

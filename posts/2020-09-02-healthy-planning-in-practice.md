@@ -10,7 +10,7 @@ layout: layouts/post.njk
 
 ![](/img/planning-practice.png)
 
-I [[2020-07-19-healthy-planning-the-theory|previously]] talked about the theory of a way to capture, configure and control how we spend our time, as defined by Cal Newport in his writings and podcast. In this post, I will show how I implemented it for my personal time and work-outside-of-work time using [Roam Research](http://roamresearch.com/).
+I [previously](https://alexchiri.blog/posts/2020-07-19-healthy-planning-the-theory/) talked about the theory of a way to capture, configure and control how we spend our time, as defined by Cal Newport in his writings and podcast. In this post, I will show how I implemented it for my personal time and work-outside-of-work time using [Roam Research](http://roamresearch.com/).
 
 There is a lot of content describing how Roam works, so I won’t get into it much here, I do recommend to browse some of that content before continuing with the next parts of this post (see [video 1](https://www.youtube.com/watch?v=WkEMSGpD5zA) or [video 2](https://www.youtube.com/watch?v=A_7_8AAkV7M), for example).
 

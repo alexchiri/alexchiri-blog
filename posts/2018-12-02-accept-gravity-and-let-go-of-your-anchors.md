@@ -10,6 +10,7 @@ categories:
 - The Vision
 tags:
 - problems
+layout: layouts/post.njk
 ---
 
 There are a couple of concepts I learned about recently, while reading [“Designing your life” by Bill Burnett and Dave Evans](https://www.amazon.com/Designing-Your-Life-Well-Lived-Joyful-ebook/dp/B01BJSRSEC/). These are not part of the main idea of the book, but I found them as powerful as they are simple.

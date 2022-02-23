@@ -9,7 +9,7 @@ layout: layouts/post.njk
 
 ![](/img/planning-theory.png)
 
-In the [[2020-07-12-healthy-habits|previous post]], I described how I started re-introducing some of the healthy habits that kept me going before the COVID-19 madness. That already improved my mental and physical state. But I felt that I am still wasting a lot of time in meaningless things, like social media or worrying and being annoyed that I am not accomplishing as much as I wanted in different areas of my life.
+In the [previous post](https://alexchiri.blog/posts/2020-07-12-healthy-habits/), I described how I started re-introducing some of the healthy habits that kept me going before the COVID-19 madness. That already improved my mental and physical state. But I felt that I am still wasting a lot of time in meaningless things, like social media or worrying and being annoyed that I am not accomplishing as much as I wanted in different areas of my life.
 
 While brainstorming about how to change this, I remembered about [Cal Newport](http://www.calnewport.com/) and his approach to structure his days using blocks of time that he reserves to specific tasks or purposes. All of his work or productive time is scheduled and dedicated to accomplishing something specific, as a way of making more opportunities for [deep work](https://www.calnewport.com/books/deep-work/). I remember giving it a try in the past, but with this occasion I revisited his work to see if there is something I can do differently or if he came up with more ideas on this topic.
 

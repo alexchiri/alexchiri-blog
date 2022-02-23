@@ -11,14 +11,10 @@ categories:
 - Code & Tech
 tags:
 - kubernetes
+layout: layouts/post.njk
 ---
 
-# Why is (there) Kubernetes?
-
-*Written on February 21st, 2020.*
-tags: #kubernetes 
-
-![[why-kubernetes.png]]
+![](/img/why-kubernetes.png)
 
 When people hear that I work with [Kubernetes](https://kubernetes.io/), a very common question is "What is Kubernetes?". I found more useful to answer "Why is (there) Kubernetes?", to paraphrase the original question. "Why" is easier to explain than "what" because you don't have to go too deep in the technical details and there's an added bonus of explaining the purpose of Kubernetes.
 

@@ -11,13 +11,10 @@ categories:
 - Code & Tech
 - Writing
 tags:
-- podcasts 
+- podcasts
+layout: layouts/post.njk
 ---
-# Make your own podcast transcription service
-
-*Written on January 12th, 2020.*
-tags: #podcasts 
-
+![](/img/scribe.jpg)
 There are a lot of very interesting podcasts out there that I like to listen to, as much as time allows me to do so. But I noticed that I don't recall much out of them and I feel the need to go through them again. It would be great if all podcasts came with a transcript, so I can quickly revisit the parts that interest me. Unfortunately, making transcripts to your podcasts can be quite expensive, which is why most authors don't do so or put them behind a paywall.
 
 With this in mind, I tried to find my own solutions for this problem. With the spread of services like [Amazon Transcribe](https://aws.amazon.com/transcribe/) and [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/), I figured this would not be difficult to make. I was not sure how much would it cost to use these services and how difficult it would be to use them, but I was willing to give it a try. 
@@ -28,11 +25,11 @@ So I only had to deploy it in my AWS account using the [SAM](https://docs.aws.am
 
 There was something that I wanted to change though. I do most of my listening from my phone. It would be really great to be able to trigger the generation of a transcript from my phone. In its original shape, this solution requires me to upload the actual podcast file. Doing that from the phone is a bit cumbersome. It would be much better if I could put in the URL of the podcast, rather than having to upload a file. So I [forked Chris' repo](https://github.com/alexchiri/serverless-transcribe) and modified his solution, by adding another Lambda function that receives the input from the form, downloads the media file from the URL provided in the form and uploads it to the S3 bucket. From then on, the flow stays the same.
 
-![The podcast upload form](/img/2020/01/transcribe_form.png)
+![The podcast upload form](/img/transcribe_form.png)
 
 I also simplified the form a bit, since it didn't have to upload to the S3 bucket anymore and I added time intervals to each segment of speech in the transcript. The latter allows me to quickly relisten certain segments that are unclear and to know where exactly in the podcast to go to do that.
 
-![A sample of a transcript](/img/2020/01/resulting_transcript.png)
+![A sample of a transcript](/img/resulting_transcript.png)
 
 [This solution](https://github.com/alexchiri/serverless-transcribe) helps me take better notes from podcasts and shorten the time I spend on building the monthly [Reading Notes newsletter](https://alexchiri.com/reading-notes/).
 
