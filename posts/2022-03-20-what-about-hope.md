@@ -1,5 +1,5 @@
 ---
-title: Is there hope?
+title: What about hope?
 description: What is hope and how can we have more of it?
 date: 2022-03-20
 tags:
