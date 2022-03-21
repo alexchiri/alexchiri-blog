@@ -6,6 +6,7 @@ tags:
   - devops
   - platforms
 layout: layouts/post.njk
+cover: /img/office-pretend.JPG
 ---
 
 ![](/img/office-pretend.JPG)

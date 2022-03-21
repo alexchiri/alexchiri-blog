@@ -4,6 +4,7 @@ date: 2020-07-12
 tags:
   - habits
 layout: layouts/post.njk
+cover: /img/running.png
 ---
 
 ![](/img/running.png)

@@ -5,6 +5,7 @@ tags:
   - productivity
   - planning
 layout: layouts/post.njk
+cover: /img/planning-theory.png
 ---
 
 ![](/img/planning-theory.png)

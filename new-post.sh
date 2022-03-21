@@ -6,5 +6,6 @@ date: $(date +%F)
 tags:
   - 
 layout: layouts/post.njk
+cover: /img/
 ---
 EOT

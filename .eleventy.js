@@ -1,5 +1,7 @@
 const { DateTime } = require("luxon");
 const fs = require("fs");
+const path = require('path');
+const { createCanvas, loadImage, registerFont } = require('canvas');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
@@ -98,6 +100,28 @@ module.exports = function(eleventyConfig) {
     ghostMode: false
   });
 
+  registerFont(__dirname + '/RobotoSlab-Medium.ttf', { family: 'RobotoSlabMedium' });
+
+  eleventyConfig.addTransform('social-image', async function (content) {
+    // only handle blog posts
+    if (!this.inputPath.endsWith('.md')) return content;
+
+    try {
+      await createSocialImageForArticle(
+        // our input article
+        this.inputPath,
+
+        // the output image name
+        this.outputPath.replace('.html', '.jpeg')
+      );
+    } catch (err) {
+      console.error(err);
+    }
+
+    // return normal content
+    return content;
+  });
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
@@ -137,3 +161,83 @@ module.exports = function(eleventyConfig) {
     }
   };
 };
+
+const createSocialImageForArticle = (input, output) =>
+    new Promise((resolve, reject) => {
+        // read data from input file
+        const data = fs.readFileSync(input, {
+            encoding: 'utf-8',
+        });
+
+        let shouldIWrite = false;
+      
+        // draw cover image
+        const canvas = createCanvas(1024, 512);
+        const ctx = canvas.getContext('2d');
+
+        const coverMatch = data.match(/cover:(.*)/);        
+
+        if(coverMatch != null) {          
+          loadImage(__dirname + coverMatch[1].trim()).then((image) => {
+            ctx.drawImage(image, 0, 0)
+          });
+
+          shouldIWrite = true;
+        } else {
+          // get title from file data
+          const titleMatch = data.match(/title:(.*)/);
+
+          if (titleMatch != null) {
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = 'black';
+            ctx.font = '64px RobotoSlabMedium';
+
+            let textLines = getLines(ctx, titleMatch[1], 1000);
+            textLines.forEach( (line, i) => ctx.fillText(line, 20, 50 + (i+1)*64) );
+
+            loadImage(__dirname + '/img/favicon.png').then((image) => {
+              ctx.drawImage(image, 400, 250, 200, 200)
+            });
+
+            shouldIWrite = true;
+          }
+        }
+      
+        if(shouldIWrite) {
+          // test if the output directory already exists, if not, create
+          const outputDir = path.dirname(output);
+          if (!fs.existsSync(outputDir))
+              fs.mkdirSync(outputDir, { recursive: true });
+
+          // write the output image
+          const stream = fs.createWriteStream(output);
+          stream.on('finish', resolve);
+          stream.on('error', reject);
+          canvas
+            .createJPEGStream({
+                quality: 0.8,
+            })
+            .pipe(stream);
+        }        
+    });
+
+function getLines(ctx, text, maxWidth) {
+  var words = text.split(" ");
+  var lines = [];
+  var currentLine = words[0];
+
+  for (var i = 1; i < words.length; i++) {
+    var word = words[i];
+    var width = ctx.measureText(currentLine + " " + word).width;
+    if (width < maxWidth) {
+      currentLine += " " + word;
+    } else {
+      lines.push(currentLine);
+      currentLine = word;
+    }
+  }
+  lines.push(currentLine);
+  return lines;
+}

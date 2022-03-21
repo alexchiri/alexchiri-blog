@@ -6,6 +6,7 @@ tags:
   - planning
   - roamresearch
 layout: layouts/post.njk
+cover: /img/planning-practice.png
 ---
 
 ![](/img/planning-practice.png)

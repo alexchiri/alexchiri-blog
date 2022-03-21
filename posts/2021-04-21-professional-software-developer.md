@@ -6,6 +6,7 @@ tags:
   - software-development
   - work
 layout: layouts/post.njk
+cover: /img/Depositphotos_10732016_S.jpg
 ---
 ![](/img/Depositphotos_10732016_S.jpg)
 

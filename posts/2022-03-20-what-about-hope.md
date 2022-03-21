@@ -6,6 +6,7 @@ tags:
   - hope
   - books
 layout: layouts/post.njk
+cover: /img/Depositphotos_5587343_XL_crop.jpg
 ---
 ![](/img/Depositphotos_5587343_XL_crop.jpg)
 

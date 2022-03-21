@@ -6,6 +6,7 @@ tags:
   - routine
   - dadops
 layout: layouts/post.njk
+cover: /img/Depositphotos_235958520_s-2019.jpg
 ---
 
 ![](/img/Depositphotos_235958520_s-2019.jpg)
