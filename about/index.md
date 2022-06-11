@@ -5,8 +5,11 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: About Me
   order: 3
+cover: /img/non-profi-profile-pic.JPG
 ---
-
+<p>
+<img src="/img/non-profi-profile-pic.JPG" alt="profile-pic" style="width:100px;"/>
+</p>
 Hi! 
 
 My name is Alex and this is my blog. I write occassionally about all kind of stuff coming from my job as a IT Consultant specialised in DevOps or from my personal life.

@@ -13,7 +13,7 @@ cover: /img/office-pretend.JPG
 
 I’ve been working in platform teams for the last few years and I noticed some patterns or maybe better called dysfunctions. Although I could easily come up with more than 5, I couldn’t resist to paraphrase Patrick Lencioni’s book title, [The 5 Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Lencioni-ebook/dp/B006960LQW/). Also, in my case, all teams I’ve worked in were building a platform based on Kubernetes, but I think all these patterns are applicable to any kind of platform team.
 
-Note: by platform team I mean a team that is building some kind of internal platform that is being used by other teams of the same company. In most cases, the platform is standardizing and abstractizing some common piece of concern for multiple teams in the organization.
+Note: by platform team I mean a team that is building some kind of internal platform that is being used by other teams of the same company. In most cases, the platform is standardizing and abstracting some common piece of concern for multiple teams in the organization.
 
 1. ## Fire, fire, too much fire!!! 🔥
 
@@ -51,7 +51,7 @@ Internal platforms should be made very attractive, so they are the obvious choic
 
 An understandable pattern when forming a platform is to have a goal to abstract everything from the reach of its users. The invoked reason it to let the other teams focus on their business and not care about deployment or pipelines or whatever purpose the platform might have. That is a noble intent, but I think it is a mistake to do so in most cases.
 
-While there is room for many things to be abstractized and standardized when building a platform, it should leave its users in full control so they can be independent in managing their product, from commit to operations and monitoring in production. That is a difficult balance to find, but I think it makes a difference what is the intention of the platform. And then it is actually quite simple to know if the balance is off (although it might a bit late): when an incident happens in the product or service that is built on top of the platform, does it require input from someone from the platform team? If the platform team needs to answer to most of the incidents of their users products, then the balance is wrong.
+While there is room for many things to be abstracted and standardized when building a platform, it should leave its users in full control so they can be independent in managing their product, from commit to operations and monitoring in production. That is a difficult balance to find, but I think it makes a difference what is the intention of the platform. And then it is actually quite simple to know if the balance is off (although it might a bit late): when an incident happens in the product or service that is built on top of the platform, does it require input from someone from the platform team? If the platform team needs to answer to most of the incidents of their users products, then the balance is wrong.
 
 5. ## Platform instances are our pets and we want them to live forever
 

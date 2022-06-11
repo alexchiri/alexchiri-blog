@@ -31,7 +31,7 @@ It sounds like hope is a very powerful skill to have, especially in the dynamic 
 
 From what I could get from the book, there isn't any step-by-step do-this-and-be-hopeful guide (surprise, surprise!!!), but there are some things that can encourage the behaviors that hope is built on.
 
-First, it pays off to have a vision and plan for the future. This could pull us forward, even when the present might not be great. The story we create in our mind about the future might be quite at odds with our previous experiences, but as we take small steps in our future direction, we free up energy from worrying about how bold we might be.
+First, it pays off to have a vision and plan for the future. This could pull us forward, even when the present might not be great. The story we create in our mind about the future might be quite at odds with our previous experiences, but as we take small steps in our future direction, we free up energy from worrying.
 
 Then, it is really important to think of different ways of moving towards our goals, of finding different pathways. Plan B, plan C or even plan D can save us from quitting in face of obstacles. That means that we should also be realistic about what obstacles and challenges we might face. The more options we have, the better perspective we have of the future and we are more hopeful.
 
