@@ -21,7 +21,7 @@ There are some techniques we can use to make learning more effective in a delibe
 
 > Obstacles that make learning more challenging, slower, and more frustrating in the short term, but better in the long term. - David Epstein, _Range_
 
-Or better yet, watch the short video below where Dr. Robert Bjork (one of the cognitive psychologists that coined the term) explains himself and desirable difficulties are and gives some examples:
+Or better yet, watch the short video below where Dr. Robert Bjork (one of the cognitive psychologists that coined the term) explains himself what desirable difficulties are and gives some examples:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XPllm-gtrMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,7 +63,7 @@ Now, we could simply watch some movies or enjoy time-off with our family and fri
 
 > In a study using college math problems, students who learned in  blocks-all examples of a particular type of problem at once-performed a lot worse come test time than students who studied the exact same problems but all mixed up. The blocked-practice students learned procedures for each type of problem through repetition. The mixed-practice students learned how to differentiate types of problems. - David Epstein, _Range_
 
-And when we mix topics, especially complementary topics, we might start seeing patterns that can be applied those topics.
+And when we mix topics, especially complementary topics, we might start seeing patterns that can be applied to those topics.
 
 > Interleaving has been shown to improve inductive reasoning. When presented with different examples mixed together, students learn to create abstract generalizations that allow them to apply what they learned to material they have never encountered before. - David Epstein, _Range_
 
@@ -85,8 +85,8 @@ After how much time should the test be to benefit the most from retrieval practi
 
 > Desirable difficulties like testing and spacing make knowledge stick and becomes durable. - David Epstein, _Range_
 
-Desirable difficulties are no silver bullets, but they are proven to help.
+Desirable difficulties are no silver bullets, but they are proven to help long-term retention of the things we want to learn. Whenever you find yourself learning something completely new, I suggest you give them a try.
 
-Bonus: a short recording of me presenting some of these desirable difficulties with some quote from the book Range, by David Epstein.
+Bonus: a short recording of me presenting some of these desirable difficulties with some quotes from the book Range, by David Epstein.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uKIbUNE2w-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
