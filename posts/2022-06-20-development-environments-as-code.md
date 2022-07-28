@@ -5,6 +5,7 @@ date: 2022-06-20
 tags:
   - docker
   - wsl
+  - vscode
 layout: layouts/post.njk
 cover: /img/Depositphotos_141380706_L.jpg
 ---
