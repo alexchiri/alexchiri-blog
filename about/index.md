@@ -16,7 +16,7 @@ My name is Alex and this is my blog. I write occassionally about all kind of stu
 
 You can browse my posts using the file explorer and search on the left or jump around posts based on some of the tags listed below.
 
-Hope you enjoy some of these and don't hesitate to get in touch, either on [Twitter](https://twitter.com/alexchiri) or by <a href="mailto:alex@alexchiri.com">email</a>
+Hope you enjoy some of these and don't hesitate to get in touch, either on a [Mastodon instance](https://hachyderm.io/@alexchiri) or by <a href="mailto:alex@alexchiri.com">email</a>
 
 See you around!
 

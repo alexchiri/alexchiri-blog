@@ -11,11 +11,11 @@ cover: /img/Depositphotos_457054980_XL.jpg
 
 ![](/img/Depositphotos_457054980_XL.jpg)
 
-As companies grow, engineering team start gathering more and more common layers in the company's product parts they own. So instead of each of them "re-inventing the wheel", internal platforms are created to encompass all the common layers or even to add new layers that serve specific purposes. It's quite common to have a "monitoring" platform, a "deployment" platform, a "development environment" platform, a "log aggregation" platform, a "compliance" platform and so on and so forth.
+As companies grow, engineering teams start gathering more and more common layers in the company's product parts they own. So instead of each of them "re-inventing the wheel", internal platforms are created to encompass all the common layers or even to add new layers that serve specific purposes. It's quite common to have a "monitoring" platform, a "deployment" platform, a "development environment" platform, a "log aggregation" platform, a "compliance" platform and so on and so forth.
 
 These platforms are internal products whose users are other employees from the very same company. And yet, they are usually not being treated like a real product being offered to paying customers. Maybe because they are not really paying for it, but still I believe it is in the company's interest to treat these products like they would be released to external paying customers. 
 
-Here are 3 common aspects where I found internal products to be lacking:
+Here are 3 common aspects where I found most internal products to be lacking:
 
 ## 1. Knowing your users is crucial ❗
 
