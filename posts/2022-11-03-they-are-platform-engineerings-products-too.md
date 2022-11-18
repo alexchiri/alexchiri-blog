@@ -1,5 +1,5 @@
 ---
-title: They are product engineering's products too!
+title: They are platform engineering's products too!
 description: 
 date: 2022-11-03
 tags:
